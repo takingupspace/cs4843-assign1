@@ -29,22 +29,22 @@ If a page that is requested results in a 404 (Page Not found), the user is route
 ### Elaboration of Technologies Used
 
 ```
-HTML (Hypertext Markup Language) was used to create elements to append to the Document Object Model (DOM)<br/>
+HTML (Hypertext Markup Language) was used to create elements to append to the Document Object Model (DOM)
 and to create the visual aspects of the web-page
 ```
 ```
-CSS (Cascading Style Sheets) was used to style the HTML elements that we created. <br/>
-I used a combination of in-line CSS, as well as including styling to tags and specific<br/>
-classes in the head tag. Including the styling in the head tag<br/>
+CSS (Cascading Style Sheets) was used to style the HTML elements that we created.
+I used a combination of in-line CSS, as well as including styling to tags and specific
+classes in the head tag. Including the styling in the head tag
 allows styling to be applied to the entire file
 ```
 ```
-JQuery was imported through a CDN (content delivery network) in the head tag, so that<br/>
-it could be utilized throughout the entire document. I used JQuery to be able to figure out<br/>
+JQuery was imported through a CDN (content delivery network) in the head tag, so that
+it could be utilized throughout the entire document. I used JQuery to be able to figure out
 which button was clicked.
 ```
 ```
-Vanilla JavaScript was utilized to handle the onClick events of the buttons mentioned above.<br/>
+Vanilla JavaScript was utilized to handle the onClick events of the buttons mentioned above.
 We can use javascript within a HTML file by enclosing it within a <script></script> tag.
 ```
 
