@@ -9,16 +9,23 @@ As mentioned above, we utilized Amazon's Simple Storage Service, because of it's
 ### Technologies
 
 ```
-HTML (Hypertext Markup Language) was used to create elements to append to the Document Object Model (DOM) and create the visual aspects of the web-page
+HTML (Hypertext Markup Language) was used to create elements to append to the Document Object Model (DOM)<br/>
+and to create the visual aspects of the web-page
 ```
 ```
-CSS (Cascading Style Sheets) was used to style the HTML elements that we created. I used a combination of in-line CSS, as well as including styling to tags and specific classes in the head tag above the body tag. Including the styling in the head tag, allows for document-wide styling to be applied
+CSS (Cascading Style Sheets) was used to style the HTML elements that we created. <br/>
+I used a combination of in-line CSS, as well as including styling to tags and specific<br/>
+classes in the head tag above the body tag. Including the styling in the head tag,<br/>
+allows for document-wide styling to be applied
 ```
 ```
-JQuery was imported through its CDN (content delivery network) in the head tag, so that it can be utilized throughout the entire document. I used JQuery to be able to figure out which button was clicked so that I could route the user to the appropriate page.
+JQuery was imported through its CDN (content delivery network) in the head tag, so that<br/>
+it can be utilized throughout the entire document. I used JQuery to be able to figure out<br/>
+which button was clicked so that I could route the user to the appropriate page.
 ```
 ```
-Vanilla JavaScript was utilized to handle the onClick event of the buttons that route to different pages. We can use javascript within a HTML file by enclosing it within a <script> tag.
+Vanilla JavaScript was utilized to handle the onClick event of the buttons that route to different pages.<br/>
+We can use javascript within a HTML file by enclosing it within a <script> tag.
 ```
 ## Built With
 
