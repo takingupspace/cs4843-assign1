@@ -12,7 +12,7 @@ As mentioned above, we utilized Amazon's Simple Storage Service, because of it's
 
 ## Security
 
-I utilized AWS' IAM (Identity Access Management) to restrict all direct access to the s3 bucket. This means that the only way to navigate to the contents within this bucket is to use the Cloud Front link provided above. Furthermore, the bucket's IAM policy explicitly allows Cloud Front to access any objects in the specified bucket by using the ARN (Amazon Resource Name) of the Cloud Front distribution.
+I utilized AWS' IAM (Identity Access Management) to restrict all direct access to the s3 bucket. This means that the only way to navigate to the contents within this bucket is to use the Cloud Front link provided above. Furthermore, the bucket's IAM policy explicitly allows Cloud Front to access any objects in the specified bucket by using the ARN (Amazon Resource Name) of the Cloud Front distribution. This ARN includes the Cloud Front OAI (Origin Access Identity) which allows us to access a private S3 bucket.
 
 ## Error Handling
 
